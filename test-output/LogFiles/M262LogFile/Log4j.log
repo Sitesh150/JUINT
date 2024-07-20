@@ -1,0 +1,12 @@
+2024-07-20 18:39:08,844 INFO M.S.TestRunnerM262 [main] Starting Appium Server
+2024-07-20 18:39:12,960 INFO M.S.TestRunnerM262 [main] Appium Server successfully is started!
+2024-07-20 18:39:12,961 INFO M.S.TestRunnerM262 [main] Closing Appium Server
+2024-07-20 18:39:14,239 INFO M.S.TestRunnerM262 [main] Appium Server is closed successfully!
+2024-07-20 18:39:14,984 INFO M.S.Hooks [main] Launching Mobile Application
+2024-07-20 18:39:15,007 INFO m.PropertyManager [main] Loading Property File
+2024-07-20 18:39:24,969 INFO m.DriverManager [main] OS name Matched & Continued with the same platform!
+2024-07-20 18:39:24,970 INFO M.S.Hooks [main] Mobile Application is launched successfully!
+2024-07-20 18:39:29,977 INFO M.S.Hooks [main] Handling contexts
+2024-07-20 18:39:35,051 INFO M.S.Hooks [main] Context is handled successfully!
+2024-07-20 18:39:43,280 INFO M.S.Hooks [main] Killing the Mobile Application
+2024-07-20 18:39:43,934 INFO M.S.Hooks [main] Mobile Application is killed successfully!

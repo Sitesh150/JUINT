@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="29.499">
+    <testcase classname="Verify the Diagnostic Screen for M262 PLC" name="Launch the Industrial Mobile Device and update the credentials under M262 PLC" time="29.099">
+        <system-out><![CDATA[Given Launch the Application and do accept and agree........................passed
+When Click on plus button under home screen of Industrial Device............passed
+Then Click on Select product option on the connection popup.................passed
+Then Click On PLC...........................................................passed
+And Click On M262...........................................................passed
+And Click On TM262M25MESS8T.................................................passed
+Then Click on the Cancel button at the top-left.............................passed
+Then Click on the Diagnostic tile under M262 Dashboard......................passed
+]]></system-out>
+    </testcase>
+</testsuite>

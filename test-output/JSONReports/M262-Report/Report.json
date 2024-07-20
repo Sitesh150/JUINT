@@ -1,0 +1,237 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-07-20T13:09:14.835Z",
+        "before": [
+          {
+            "result": {
+              "duration": 20070907300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "M262.StepDefinitions.Hooks.sessionStart()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Launch the Industrial Mobile Device and update the credentials under M262 PLC",
+        "description": "",
+        "id": "verify-the-diagnostic-screen-for-m262-plc;launch-the-industrial-mobile-device-and-update-the-credentials-under-m262-plc",
+        "after": [
+          {
+            "result": {
+              "duration": 2659122200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "M262.StepDefinitions.Hooks.sessionStop()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1193267200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the Application and do accept and agree",
+            "match": {
+              "location": "M262.StepDefinitions.M262UpdateCredentialsStep.launch_the_application_and_do_accept_and_agree()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 2987900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "M262.StepDefinitions.Hooks.takingScreenShotForTheFailedTestCases(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 608510800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on plus button under home screen of Industrial Device",
+            "match": {
+              "location": "M262.StepDefinitions.M262UpdateCredentialsStep.click_on_plus_button_under_home_screen_of_industrial_device()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 998000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "M262.StepDefinitions.Hooks.takingScreenShotForTheFailedTestCases(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 498914300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Select product option on the connection popup",
+            "match": {
+              "location": "M262.StepDefinitions.M262UpdateCredentialsStep.click_on_select_product_option_on_the_connection_popup()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "M262.StepDefinitions.Hooks.takingScreenShotForTheFailedTestCases(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 635600400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click On PLC",
+            "match": {
+              "location": "M262.StepDefinitions.M262UpdateCredentialsStep.click_on_plc()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 994000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "M262.StepDefinitions.Hooks.takingScreenShotForTheFailedTestCases(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 542326400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click On M262",
+            "match": {
+              "location": "M262.StepDefinitions.M262UpdateCredentialsStep.click_on_m262()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "M262.StepDefinitions.Hooks.takingScreenShotForTheFailedTestCases(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 683311600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click On TM262M25MESS8T",
+            "match": {
+              "location": "M262.StepDefinitions.M262UpdateCredentialsStep.click_on_tm262m25mess8t()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "M262.StepDefinitions.Hooks.takingScreenShotForTheFailedTestCases(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1303612200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on the Cancel button at the top-left",
+            "match": {
+              "location": "M262.StepDefinitions.M262DiagnosticStep.click_on_the_cancel_button_at_the_top_left()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1015600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "M262.StepDefinitions.Hooks.takingScreenShotForTheFailedTestCases(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 730232100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on the Diagnostic tile under M262 Dashboard",
+            "match": {
+              "location": "M262.StepDefinitions.M262DiagnosticStep.click_on_the_diagnostic_tile_under_m262_dashboard()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "M262.StepDefinitions.Hooks.takingScreenShotForTheFailedTestCases(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Verify_Diagnose"
+          },
+          {
+            "name": "@Device_Android"
+          },
+          {
+            "name": "@Author_SESA698287"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the Diagnostic Screen for M262 PLC",
+    "description": "",
+    "id": "verify-the-diagnostic-screen-for-m262-plc",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/PLC.M262Features/M262_Diagnostic.feature",
+    "tags": []
+  }
+]

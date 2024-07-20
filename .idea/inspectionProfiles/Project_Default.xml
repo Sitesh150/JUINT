@@ -1,0 +1,69 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AutoCloseableResource" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="METHOD_MATCHER_CONFIG" value="java.util.Formatter,format,java.io.Writer,append,com.google.common.base.Preconditions,checkNotNull,org.hibernate.Session,close,java.io.PrintWriter,printf,java.io.PrintStream,printf,base.Manager,windowsGetAppiumService,base.ServerManager,windowsGetAppiumService,manager.ServerManager,windowsGetAppiumService" />
+    </inspection_tool>
+    <inspection_tool class="ConstantValue" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="DONT_REPORT_TRUE_ASSERT_STATEMENTS" value="true" />
+    </inspection_tool>
+    <inspection_tool class="JavadocDeclaration" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ADDITIONAL_TAGS" value="Method,method,Exception,keyword,class,set,BusinessLogics,GetterMethods,X-Paths,Declaration,Initialization" />
+    </inspection_tool>
+    <inspection_tool class="UnusedProperty" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="JUnitAppium" />
+          <option value="JUnitAppium" />
+          <option value="JUnitAppium" />
+          <option value="JUnitAppium" />
+          <option value="JUnitAppium" />
+          <option value="JUnitAppium" />
+          <option value="JUnitAppium" />
+          <option value="JUnitAppium" />
+          <option value="JUnitAppium" />
+          <option value="JUnitAppium" />
+          <option value="JUnitAppium" />
+          <option value="JUnitAppium" />
+          <option value="JUnitAppium" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="org.jsoup:jsoup:1.8.3" />
+          <option value="com.google.code.gson:gson:2.8.6" />
+          <option value="commons-codec:commons-codec:1.9" />
+          <option value="org.apache.httpcomponents:httpclient:4.5.2" />
+          <option value="org.apache.pdfbox:pdfbox:2.0.22" />
+          <option value="org.xerial:sqlite-jdbc:3.8.11.1" />
+          <option value="junit:junit:4.13" />
+          <option value="com.fasterxml.jackson.core:jackson-databind:2.10.1" />
+          <option value="org.yaml:snakeyaml:1.28" />
+          <option value="com.googlecode.owasp-java-html-sanitizer:owasp-java-html-sanitizer:20191001.1" />
+          <option value="commons-collections:commons-collections:3.2.2" />
+          <option value="commons-io:commons-io:2.6" />
+          <option value="org.apache.velocity:velocity-engine-core:2.1" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="In progress" />
+          <option value="Fixed in branch" />
+          <option value="In progress" />
+          <option value="In progress" />
+          <option value="In progress" />
+          <option value="In progress" />
+          <option value="In progress" />
+          <option value="In progress" />
+          <option value="In progress" />
+          <option value="In progress" />
+          <option value="In progress" />
+          <option value="Fixed in branch" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
